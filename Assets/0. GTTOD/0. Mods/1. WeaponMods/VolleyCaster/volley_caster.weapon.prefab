@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4036107270339194619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4036107270339194597}
+  - component: {fileID: 13754752633378881}
+  - component: {fileID: 4036107270339194596}
+  m_Layer: 0
+  m_Name: volley_caster.weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4036107270339194597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4036107270339194619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &13754752633378881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4036107270339194619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2230869dc32e649ba8755eb946cfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SteamID: 
+  Type: 1
+  Parent: 0
+  Position: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
+  LocalScale: {x: 1, y: 1, z: 1}
+  Level: 
+  WorkshopName: VOLLEY CASTER
+  WorkshopDescription: This is a reimplementation of the old Burst Cannon from previous
+    versions of GTTOD. These weapons were held by the Infantry / Drake enemies and
+    are a Power Cell using heat based weapon with six round burst and full auto capabilities.
+  WorkshopThumbnail: {fileID: 2800000, guid: fde54aed28944e949861b718c6bc79bb, type: 3}
+--- !u!114 &4036107270339194596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4036107270339194619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc6ddeedf88fdd43ac4ca6f99d5242c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponLevel: 0
+  GenericName: VOLLEY CASTER
+  SpecialName: VOLLEY CASTER
+  GenericWeapon: {fileID: 1375413638132273283, guid: 036924c60fc9352458f99c8bea07d616,
+    type: 3}
+  SpecialWeapon: {fileID: 1375413638132273283, guid: 036924c60fc9352458f99c8bea07d616,
+    type: 3}
+  Pickup: {fileID: 8715221106557901874, guid: 3cab0b48177cf144b87bd82e5e6d8c5b, type: 3}
+  Icon: {fileID: 21300000, guid: 0349a0c7f738ee34287a14bbc3b44b91, type: 3}
+  HasSpecial: 0

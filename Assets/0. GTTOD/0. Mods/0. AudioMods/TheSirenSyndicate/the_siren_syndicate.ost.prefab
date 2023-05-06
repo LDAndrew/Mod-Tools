@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1359656030575236460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1359656030575236457}
+  - component: {fileID: 1359656030575236458}
+  - component: {fileID: 1359656030575236459}
+  m_Layer: 0
+  m_Name: the_siren_syndicate.ost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1359656030575236457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359656030575236460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1359656030575236458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359656030575236460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2230869dc32e649ba8755eb946cfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SteamID: (ENTER YOUR STEAM ID HERE)
+  Type: 0
+  Parent: 0
+  Position: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
+  LocalScale: {x: 0, y: 0, z: 0}
+  Level: 
+  WorkshopName: The Siren Syndicate - ID:Null
+  WorkshopDescription: This adds The Siren Syndicate by ID:Null into the Act 1 soundtrack
+    list in GTTOD.
+  WorkshopThumbnail: {fileID: 2800000, guid: 54ad28457a683ec4b944beae4816ca37, type: 3}
+--- !u!114 &1359656030575236459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359656030575236460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e936eeed80d1bf344a4b5672e255db39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModTrackType: 5
+  ModTrackName: THE SIREN SYNDICATE
+  ModTrackArtist: ID:NULL
+  ModTrackStartClip: {fileID: 8300000, guid: 3f3971fe06f8a2e4cbdcae942088e554, type: 3}
+  ModTrackLoopClip: {fileID: 0}
+  ModAmbienceStart: {fileID: 0}
+  ModAmbienceLoop: {fileID: 0}

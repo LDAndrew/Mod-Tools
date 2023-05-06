@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6961813081076189453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961813081076189454}
+  - component: {fileID: 6961813081076189448}
+  - component: {fileID: 6961813081076189455}
+  m_Layer: 0
+  m_Name: usp_match.weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6961813081076189454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961813081076189453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6961813081076189448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961813081076189453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2230869dc32e649ba8755eb946cfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SteamID: 
+  Type: 1
+  Parent: 0
+  Position: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
+  LocalScale: {x: 0, y: 0, z: 0}
+  Level: 
+  WorkshopName: Old GTTOD Pistol
+  WorkshopDescription: 'Conversion Created By: GlennTheDroid
+
+    Implementation
+    by low_hanging_nuts
+
+
+    THE DEAD SPEAK, and the old GTTOD USP RETURNS!!!
+
+
+    This
+    is the original pistol model ripped from the files of previous versions. It has
+    been attached onto the current pistol rig and uses its animations.'
+  WorkshopThumbnail: {fileID: 2800000, guid: 614b3fa1dd6b6c94fb5b37d13bc41501, type: 3}
+--- !u!114 &6961813081076189455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6961813081076189453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc6ddeedf88fdd43ac4ca6f99d5242c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponLevel: 0
+  GenericName: USP MATCH
+  SpecialName: 
+  GenericWeapon: {fileID: 1594094479562921546, guid: 92b7887a56ad83147ac1ec678ac452e5,
+    type: 3}
+  SpecialWeapon: {fileID: 1594094479562921546, guid: 92b7887a56ad83147ac1ec678ac452e5,
+    type: 3}
+  Pickup: {fileID: 7180324044698780761, guid: 8eaf603e308c43d44bc512fe475603bf, type: 3}
+  Icon: {fileID: 21300000, guid: 62ff64c8c47e38144a3b850cdb7ecccd, type: 3}
+  HasSpecial: 0
