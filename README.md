@@ -23,7 +23,7 @@ These tools were created for the sole purpose of creating content for GTTOD's St
 
 |General Tutorials|
 |----------|
-* Download and set-up the mod tool package
+* [Download and set-up the mod tool package](https://youtu.be/Vmp7L0BHXYk)
 * Build your first mod
 * Upload your first mod
 
