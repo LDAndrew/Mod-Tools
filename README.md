@@ -1,4 +1,4 @@
-# GTTOD Mod Tools (NOT CURRENTLY LIVE)
+# GTTOD Mod Tools (CURRENTLY IN PROGRESS)
 
 ## DESCRIPTION
 
@@ -11,14 +11,13 @@ These tools were created for the sole purpose of creating content for GTTOD's St
 |Unity 2019 Project|✔|
 |FK and IK Rig|✔|
 |OST Mod Support|✔|
+|Weapon Mod Support|✔|
 |Object Mod Support|✔|
-|Map Mod Support|❌|
-|Weapon Mod Support|❌|
 |Equipment Mod Support|❌|
 |Melee Weapon Mod Support|❌|
 |Enemy AI Mod Support|❌|
 |Multi-Mod Package Support|❌|
-|Basic Examples|❌|
+|Map Mod Support|❌|
 
 ## TUTORIALS
 
@@ -27,21 +26,16 @@ These tools were created for the sole purpose of creating content for GTTOD's St
 * Download and set-up the mod tool package
 * Build your first mod
 * Upload your first mod
-* Edit your first mod page
-* Update your first mod
 
 |OST Tutorials|
 |----------|
 * [Create a normal OST mod](https://youtu.be/5QFbn5KMTDA)
 * Create a looping OST mod
-* Build your OST mod
 
 |Object Tutorials|
 |----------|
 * Create the base of an object mod
-* Create an object
-* Add spawn points to your object
-* Build your object mod
+* Create an object mod
 
 |Map Tutorials|
 |----------|
