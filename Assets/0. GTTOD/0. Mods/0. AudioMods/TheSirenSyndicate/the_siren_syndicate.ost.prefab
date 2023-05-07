@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e2230869dc32e649ba8755eb946cfa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SteamID: (ENTER YOUR STEAM ID HERE)
+  SteamID: PUT YOUR STEAM ID HERE
   Type: 0
   Parent: 0
   Position: {x: 0, y: 0, z: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e936eeed80d1bf344a4b5672e255db39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModTrackType: 5
+  ModTrackZone: 2
   ModTrackName: THE SIREN SYNDICATE
   ModTrackArtist: ID:NULL
   ModTrackStartClip: {fileID: 8300000, guid: 3f3971fe06f8a2e4cbdcae942088e554, type: 3}

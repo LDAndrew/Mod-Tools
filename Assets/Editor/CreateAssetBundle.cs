@@ -9,7 +9,7 @@ public class CreateAssetBundle : MonoBehaviour
     [MenuItem("Assets/GTTOD Mod Tools/Create Asset Bundles")]
     private static void BuildAllAssetBundles()
     {
-        string CustomModFolder = @"NOTHING";
+        string CustomModFolder = @"E:\GTTODMods";
         if (CustomModFolder != @"NOTHING" && Directory.Exists(CustomModFolder))
         {
             try

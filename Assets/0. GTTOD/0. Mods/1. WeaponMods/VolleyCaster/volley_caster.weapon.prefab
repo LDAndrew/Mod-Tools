@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e2230869dc32e649ba8755eb946cfa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SteamID: 
+  SteamID: PUT YOUR STEAM ID HERE
   Type: 1
   Parent: 0
   Position: {x: 0, y: 0, z: 0}
