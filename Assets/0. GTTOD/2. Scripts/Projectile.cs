@@ -10,6 +10,6 @@ public class Projectile : MonoBehaviour
     }
     public enum BulletEffect
     {
-        None = 0, Fire = 1, Static = 2, Weakness = 3,
+        None = 0, Fire = 1, Static = 2, Frost = 3, InstantFrost = 5
     }
 }

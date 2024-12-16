@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4714160618771563698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6063013982519422841}
+  - component: {fileID: 2260404301192002239}
+  - component: {fileID: -1824990134824837292}
+  m_Layer: 0
+  m_Name: weaponame.weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6063013982519422841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714160618771563698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2260404301192002239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714160618771563698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2230869dc32e649ba8755eb946cfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SteamID: 1009902977
+  Type: 1
+  Parent: 0
+  Position: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
+  LocalScale: {x: 0, y: 0, z: 0}
+  Level: 
+  WorkshopName: 
+  WorkshopDescription: 
+  WorkshopThumbnail: {fileID: 0}
+--- !u!114 &-1824990134824837292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714160618771563698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc6ddeedf88fdd43ac4ca6f99d5242c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponLevel: 0
+  GenericName: 
+  SpecialName: 
+  GenericWeapon: {fileID: 0}
+  SpecialWeapon: {fileID: 0}
+  Pickup: {fileID: 0}
+  Icon: {fileID: 0}
+  HasSpecial: 1

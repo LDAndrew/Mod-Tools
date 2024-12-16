@@ -8,6 +8,7 @@ public class GTTOD_WeaponMod : MonoBehaviour
     {
         AllLevels = 0, Level1AndUnder = 1, Level2AndUnder = 2, Level3AndUnder = 3, Level4AndUnder = 4, Level5AndUnder = 5, Level6AndUnder = 6, Level7AndUnder = 7, Level8AndUnder = 8, Level9AndUnder = 9, Level10AndUnder = 10,
     }
+    [Tooltip("The higher the weapon level the higher the price. Level 3 And Under will cost more than All Levels.")]
     public Level WeaponLevel;
     public string GenericName;
     [ConditionalField("HasSpecial")] public string SpecialName;

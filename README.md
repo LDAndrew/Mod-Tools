@@ -1,6 +1,8 @@
-# GTTOD Mod Tools (CURRENTLY IN PROGRESS)
+# ModToolsPlus
 
 ## DESCRIPTION
+
+ModToolsPlus provides an updated set of tools, including more scripts and better documentation. Existing tooling has been updated to support new features of the game.
 
 These tools were created for the sole purpose of creating content for GTTOD's Steam Workshop and modding community. For that reason, these tools are not for licensed use in other products.
 
@@ -8,8 +10,10 @@ These tools were created for the sole purpose of creating content for GTTOD's St
 
 |Feature|Implemented|
 |----------|------------|
-|Unity 2019 Project|✔|
+|Unity 2021 Project|✔|
 |FK and IK Rig|✔|
+|In Editor Documentation and Tutorials|WIP|
+|Custom Scripts|✔ (Not supported by the game at this time)|
 |OST Mod Support|✔|
 |Weapon Mod Support|✔|
 |Object Mod Support|✔|
@@ -19,7 +23,7 @@ These tools were created for the sole purpose of creating content for GTTOD's St
 |Multi-Mod Package Support|❌|
 |Map Mod Support|❌|
 
-## TUTORIALS
+## VIDEO TUTORIALS
 
 |General Tutorials|
 |----------|

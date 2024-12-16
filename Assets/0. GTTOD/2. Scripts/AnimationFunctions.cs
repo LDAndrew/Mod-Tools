@@ -16,13 +16,11 @@ public class AnimationFunctions : MonoBehaviour
 
     GameManager GM;
     AudioSource LocalAudio;
-    ac_ObjectPool ObjectPool;
 
     void Start()
     {
         GM = GameManager.GM;
         LocalAudio = GetComponent<AudioSource>();
-        ObjectPool = GameManager.GM.GetComponent<ac_ObjectPool>();
 
         LastPitch = LocalAudio.pitch;
     }
@@ -35,13 +33,11 @@ public class AnimationFunctions : MonoBehaviour
     {
         if (Random.Range(0f, 100f) <= SFX[SoundID].ChanceToPlay)
         {
-            if (ObjectPool == null)
-            {
-                ObjectPool = GameManager.GM.GetComponent<ac_ObjectPool>();
-            }
-            AudioRange Audio = ObjectPool.GetObject("GlobalSoundEffect").GetComponent<AudioRange>();
-            Audio.transform.position = transform.position;
-            Audio.SetPlay(SFX[SoundID].SFX[Random.Range(0, SFX[SoundID].SFX.Count)], Random.Range(SFX[SoundID].SFXRange.x, SFX[SoundID].SFXRange.y), SFX[SoundID].SFXVolume);
+            AudioSource source = GM.GetComponent<AudioSource>();
+            source.clip = SFX[SoundID].SFX[Random.Range(0, SFX[SoundID].SFX.Count)];
+            source.volume = SFX[SoundID].SFXVolume;
+            source.pitch = Random.Range(SFX[SoundID].SFXRange.x, SFX[SoundID].SFXRange.y);
+            source.Play();
         }
     }
     public void PlayLocalSoundEffect(int SoundID)
@@ -94,6 +90,26 @@ public class AnimationFunctions : MonoBehaviour
         CameraShaker.Instance.DefaultRotInfluence = new Vector3(1, 0.5f, 1);
         CameraShaker.Instance.ShakeOnce(9f, 6f, 0.1f, 0.75f);
         CameraShaker.Instance.ResetCamera();
+    }
+
+    public void DamagePlayer(int Amount)
+    {
+    }
+
+    public void Scan()
+    {
+    }
+
+    public void ToggleHUD()
+    {
+    }
+
+    public void FadeHUD()
+    {
+    }
+
+    public void RecallAllRegisteredObjects()
+    {
     }
 }
 [System.Serializable]
