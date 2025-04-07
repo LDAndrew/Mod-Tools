@@ -5,17 +5,18 @@ using System.IO;
 
 public class CreateAssetBundle : MonoBehaviour
 {
+    [MenuItem("GTTOD Mod Tools/Create Asset Bundles")]
     [MenuItem("Assets/GTTOD Mod Tools/Create Asset Bundles")]
     private static void BuildAllAssetBundles()
     {
-        string CustomModFolder = @"C:\Program Files (x86)\Steam\steamapps\common\Get To The Orange Door\mods";
+        string CustomModFolder = ModToolsCore.config.ModFolder;
 
         if (!Directory.Exists(CustomModFolder))
         {
             Directory.CreateDirectory(CustomModFolder);
         }
 
-        if (CustomModFolder != @"NOTHING" && Directory.Exists(CustomModFolder))
+        if (Directory.Exists(CustomModFolder))
         {
             try
             {
@@ -28,7 +29,7 @@ public class CreateAssetBundle : MonoBehaviour
         }
         else
         {
-            Debug.Log("PATH NOT SELECTED");
+            Debug.LogError("Custom mods folder doesn't exist!");
         }
     }
 }

@@ -119,8 +119,6 @@ public class WeaponTutorial : EditorWindow
         GUILayout.Space(20);
 
         GUILayout.Label("Take you FBX file and drag it into that folder.", EditorStyles.wordWrappedLabel);
-        GUILayout.Label("Click on that FBX file and under the Model tab enable \"Read/Write\".", EditorStyles.wordWrappedLabel);
-        GUILayout.Label("Then click on the Animation tab and disable animation compression using the dropdown.", EditorStyles.wordWrappedLabel);
         GUILayout.Label("Then click on the Materials tab and use the materials from the \"Assets/0. GTTOD/5. Materials\" folder to add the materials.", EditorStyles.wordWrappedLabel);
         if (GUILayout.Button("Show Materials Folder"))
         {
