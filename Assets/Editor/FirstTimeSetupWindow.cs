@@ -150,7 +150,7 @@ public class FirstTimeSetupWindow : EditorWindow
     private void DrawPage5()
     {
         GUILayout.Label("Would you like to install some BepInEx plugins that will help with modding?", EditorStyles.wordWrappedLabel);
-        GUILayout.Label("The plugins will give you access to the \"reload\" console command to reload mods, the ability to equip guns (including mod guns) using the name of the gun instead of the id, a console window for debugging, and access to debug tools by pressing F7.", EditorStyles.wordWrappedLabel);
+        GUILayout.Label("The plugins will give you access to the \"reloadmods\" console command to reload mods, the ability to equip guns (including mod guns) using the name of the gun instead of the id, a console window for debugging, and access to debug tools by pressing F7.", EditorStyles.wordWrappedLabel);
 
         GUILayout.Space(20);
 

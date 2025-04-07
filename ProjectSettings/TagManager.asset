@@ -4,7 +4,23 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - ChatWindow
+  - Interactable
+  - Wall
+  - WeakPoint
+  - HardPoint
+  - HitBox
+  - Shield
+  - SpawnPoint
   - Enemy
+  - Bullet
+  - Trigger
+  - Water
+  - MovingPlatform
+  - Clamber
+  - Kick
+  - Vehicle
+  - Special
   layers:
   - Default
   - TransparentFX
@@ -16,25 +32,25 @@ TagManager:
   - 
   - Player
   - Weapon
-  - 
-  - 
-  - 
+  - Grid
+  - AdditionalGrid
+  - ConnectorGrid
   - Interactable
-  - 
+  - Structure
   - Enemy
-  - 
-  - 
-  - 
+  - ActiveRagdoll
+  - Resource
+  - Bullet
   - PickUp
-  - 
-  - 
-  - 
+  - Shield
+  - Screen
+  - Friendly
   - GrapplePoint
+  - Vehicle
+  - Ragdoll
+  - VehicleBlocker
   - 
-  - 
-  - 
-  - 
-  - 
+  - LudeoUiView
   - UIProcessing
   - PlayerProcessing
   - WorldProcessing

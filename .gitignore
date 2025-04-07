@@ -1,6 +1,11 @@
 bin
 obj
 .vs
+.vsconfig
+*.csproj
+*.sln
+Config.json
+Config.json.meta
 
 [Ll]ibrary
 [Tt]emp
